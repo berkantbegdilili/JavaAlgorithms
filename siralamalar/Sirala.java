@@ -12,7 +12,6 @@ final public class Sirala {
     /**
      * Bu method, dizideki yerleri degistirmek icin kullanilir
      * 
-     * @param <T> Listenin Tipi
      * @param arr Degistirmek istedigimiz dizi
      * @param firstElement Ilk elemanin indeksi
      * @param secondElement Ikinci elamanin indeksi
