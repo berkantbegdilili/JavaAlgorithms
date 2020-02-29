@@ -9,8 +9,10 @@ ________________________________
  
 ________________________________
 #
-> Yazılan algoritmalarda hatalar veya gözden kaçan yerler olabilir. Lütfen bulduğunuz hatayı benimle iletişime geçerek bildirin.
-> There may be errors or missed places in the algorithms written. Please report the error you found by contacting me.
+> (EN: There may be errors or missed places in the algorithms written. Please report the error you found by contacting me.)
+#
+> (TR: Yazılan algoritmalarda hatalar veya gözden kaçan yerler olabilir. Lütfen bulduğunuz hatayı benimle iletişime geçerek bildirin.)
+
 
 
 
