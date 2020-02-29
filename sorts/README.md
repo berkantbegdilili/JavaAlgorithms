@@ -4,10 +4,10 @@
 ________________________________
 # Sort Algorithms (Sıralama Algoritmaları)
 
- 1. [SortAlgorithm (Interface - Arayüz)](https://github.com/berkantbegdilili/JavaAlgoritmalari/blob/master/sorts/SortAlgorithm.java "by BB")
- 2. [Sort (Final Class - Değiştirilemez Sınıf)](https://github.com/berkantbegdilili/JavaAlgoritmalari/blob/master/sorts/Sort.java "by BB")
- 3. [Selection Sort (Seçerek Sıralama)](https://github.com/berkantbegdilili/JavaAlgoritmalari/blob/master/sorts/SelectionSort.java "by BB")
- 4. [Insertion Sort (Sokma Sıralaması)](https://github.com/berkantbegdilili/JavaAlgoritmalari/blob/master/sorts/InsertionSort.java "by BB")
+ 1. [SortAlgorithm (Interface - Arayüz)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/sorts/SortAlgorithm.java "by BB")
+ 2. [Sort (Final Class - Değiştirilemez Sınıf)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/sorts/Sort.java "by BB")
+ 3. [Selection Sort (Seçerek Sıralama)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/sorts/SelectionSort.java "by BB")
+ 4. [Insertion Sort (Sokma Sıralaması)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/sorts/InsertionSort.java "by BB")
  
 ________________________________
 #
