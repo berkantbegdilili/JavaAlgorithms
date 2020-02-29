@@ -7,7 +7,7 @@ import java.util.List;
  *
  * @author berkant.begdilili@ogr.dpu.edu.tr
  */
-final public class Siralama {
+final public class Sirala {
     
     /**
      * Bu method, dizideki yerleri degistirmek icin kullanilir

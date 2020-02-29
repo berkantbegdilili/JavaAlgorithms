@@ -20,13 +20,13 @@ public class SecerekSiralama implements SiralamaAlgoritmasi{
            int min = i;
            
            for(int j=i+1 ; j<n ; j++){
-               if(Siralama.less(arr[j], arr[min])){
+               if(Sirala.less(arr[j], arr[min])){
                    min = j;
                }
            }
            
            if(min != i){
-               Siralama.swap(arr, i, min);
+               Sirala.swap(arr, i, min);
            }
        }
        return arr;
@@ -46,7 +46,7 @@ public class SecerekSiralama implements SiralamaAlgoritmasi{
         Integer[] sortedIntArr = secerekSiralama.sort(intArr);
         
         //Dizi yazdirildi
-        Siralama.print(sortedIntArr);
+        Sirala.print(sortedIntArr);
         
         //Bir dizi olusturuldu ve yazilanlar atandi
         String[] stringArr = {"b", "d", "a", "y", "z", "c"};
@@ -55,7 +55,7 @@ public class SecerekSiralama implements SiralamaAlgoritmasi{
         String[] sortedStringArr = secerekSiralama.sort(stringArr);
         
         //Dizi yazdirildi
-        Siralama.print(sortedStringArr);
+        Sirala.print(sortedStringArr);
         
     }
 }
