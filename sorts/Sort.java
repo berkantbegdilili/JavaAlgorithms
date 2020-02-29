@@ -1,4 +1,4 @@
-package bb_projects.siralamalar;
+package bb_projects.sorts;
 
 import java.util.Arrays;
 import java.util.List;
@@ -7,7 +7,7 @@ import java.util.List;
  *
  * @author berkant.begdilili@ogr.dpu.edu.tr
  */
-final public class Sirala {
+final public class Sort {
     
     /**
      * Bu method, dizideki yerleri degistirmek icin kullanilir

@@ -1,11 +1,12 @@
-package bb_projects.siralamalar;
+package bb_projects.sorts;
 
 /**
  *
  * @author berkant.begdilili@ogr.dpu.edu.tr
- * @see SiralamaAlgoritmasi
+ * @see SortAlgorithm
+ * @see Sort
  */
-public class SecerekSiralama implements SiralamaAlgoritmasi{
+public class SelectionSort implements SortAlgorithm{
     
     /**
      * Bu method, Genel Secerek Siralamayi uygular
@@ -20,21 +21,22 @@ public class SecerekSiralama implements SiralamaAlgoritmasi{
            int min = i;
            
            for(int j=i+1 ; j<n ; j++){
-               if(Sirala.less(arr[j], arr[min])){
+               if(Sort.less(arr[j], arr[min])){
                    min = j;
                }
            }
            
            if(min != i){
-               Sirala.swap(arr, i, min);
+               Sort.swap(arr, i, min);
            }
        }
        return arr;
     }
    
+    //Ornek program
     public static void main(String[] args) {
         //Nesne olusturuldu
-        SecerekSiralama secerekSiralama = new SecerekSiralama();
+        SelectionSort sort = new SelectionSort();
         
         //Bir dizi olusturuldu ve rastgele sayilar atandi
         Integer[] intArr = new Integer[10];  
@@ -43,19 +45,19 @@ public class SecerekSiralama implements SiralamaAlgoritmasi{
         }
         
         //Dizi siralandi
-        Integer[] sortedIntArr = secerekSiralama.sort(intArr);
+        Integer[] sortedIntArr = sort.sort(intArr);
         
         //Dizi yazdirildi
-        Sirala.print(sortedIntArr);
+        Sort.print(sortedIntArr);
         
         //Bir dizi olusturuldu ve yazilanlar atandi
-        String[] stringArr = {"b", "d", "a", "y", "z", "c"};
+        String[] stringArr = {"b", "e", "r", "k", "a", "n", "t"};
         
         //Dizi siralandi
-        String[] sortedStringArr = secerekSiralama.sort(stringArr);
+        String[] sortedStringArr = sort.sort(stringArr);
         
         //Dizi yazdirildi
-        Sirala.print(sortedStringArr);
+        Sort.print(sortedStringArr);
         
     }
 }

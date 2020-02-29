@@ -1,11 +1,12 @@
-package bb_projects.siralamalar;
+package bb_projects.sorts;
 
 /**
  *
  * @author berkant.begdilili@ogr.dpu.edu.tr
- * @see SiralamaAlgoritmasi
+ * @see SortAlgorithm
+ * @see Sort
  */
-public class SokmaSiralamasi implements SiralamaAlgoritmasi{
+public class InsertionSort implements SortAlgorithm{
     
     /**
      * Bu method, Genel Sokma Siralamasini uygular
@@ -21,7 +22,7 @@ public class SokmaSiralamasi implements SiralamaAlgoritmasi{
             int j = i - 1;
             
             //Kucuk degeri sola kaydirma
-            while (j >= 0 && Sirala.less(card, arr[j])) {
+            while (j >= 0 && Sort.less(card, arr[j])) {
                 arr[j + 1] = arr[j];
                 j--;
             }
@@ -32,7 +33,7 @@ public class SokmaSiralamasi implements SiralamaAlgoritmasi{
     
     //Ornek program
     public static void main(String[] args) {
-        SokmaSiralamasi sokmaSiralamasi = new SokmaSiralamasi();
+        InsertionSort sort = new InsertionSort();
         
         //Bir dizi olusturuldu ve rastgele sayilar atandi
         Integer[] intArr = new Integer[10];  
@@ -41,19 +42,19 @@ public class SokmaSiralamasi implements SiralamaAlgoritmasi{
         }
         
         //Dizi siralandi
-        Integer[] sortedIntArr = sokmaSiralamasi.sort(intArr);
+        Integer[] sortedIntArr = sort.sort(intArr);
         
         //Dizi yazdirildi
-        Sirala.print(sortedIntArr);
+        Sort.print(sortedIntArr);
         
         //Bir dizi olusturuldu ve yazilanlar atandi
         String[] stringArr = {"b", "e", "r", "k", "a", "n", "t"};
         
         //Dizi siralandi
-        String[] sortedStringArr = sokmaSiralamasi.sort(stringArr);
+        String[] sortedStringArr = sort.sort(stringArr);
         
         //Dizi yazdirildi
-        Sirala.print(sortedStringArr);
+        Sort.print(sortedStringArr);
     }
     
 }
