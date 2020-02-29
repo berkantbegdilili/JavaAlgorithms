@@ -12,7 +12,7 @@ ________________________________
 #
 > TR: Yazılan algoritmalarda hatalar veya gözden kaçan yerler olabilir. Lütfen bulduğunuz hatayı benimle iletişime geçerek bildirin.
 
-________________________________
+
 #
 🕊 EN: This document was created by [**Berkant BEGDILILI**](https://t.me/berkantbegdilili "Telegram: @berkantbegdilili")  ✌🏼
 
