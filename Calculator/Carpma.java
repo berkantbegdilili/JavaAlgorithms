@@ -1,18 +1,16 @@
 package bb_projects.Calculator;
 
 /**
- *
+ * Carpma Islemini Yapan Sinif
+ * 
  * @author berkant.begdilili@ogr.dpu.edu.tr
+ * @see Kontrol
  */
 public class Carpma extends Kontrol{
     
     public Carpma(String[] arr){
         this.arr = arr;
         control(this.arr);
-    }
-
-    public String[] getArr() {
-        return arr;
     }
 
     @Override

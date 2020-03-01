@@ -1,18 +1,16 @@
 package bb_projects.Calculator;
 
 /**
- *
+ * Cikarma Islemini Yapan Sinif
+ * 
  * @author berkant.begdilili@ogr.dpu.edu.tr
+ * @see Kontrol
  */
 public class Cikarma extends Kontrol{
     
     public Cikarma(String[] arr){
         this.arr = arr;
         control(this.arr);
-    }
-
-    public String[] getArr() {
-        return arr;
     }
 
     @Override

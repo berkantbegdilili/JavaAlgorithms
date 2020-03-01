@@ -1,8 +1,10 @@
 package bb_projects.Calculator;
 
 /**
- *
+ * Toplama Islemini Yapan Sinif
+ * 
  * @author berkant.begdilili@ogr.dpu.edu.tr
+ * @see Kontrol
  */
 public class Toplama extends Kontrol{
 
@@ -11,10 +13,6 @@ public class Toplama extends Kontrol{
         control(this.arr);
     }
 
-    public String[] getArr() {
-        return arr;
-    }
-     
     @Override
      double result(String[] arr){
         double result = 0;

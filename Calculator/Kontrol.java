@@ -1,7 +1,8 @@
 package bb_projects.Calculator;
 
 /**
- *
+ * Islemlerin Yapilabilmesi Icın Gerekli Soyut Sinif
+ * 
  * @author berkant.begdilili@ogr.dpu.edu.tr
  */
 public abstract class Kontrol{
@@ -9,6 +10,11 @@ public abstract class Kontrol{
     
     abstract double result(String[] arr);
     
+    /**
+     * Bu method, gerekli kontrolleri ve islemleri yapar
+     * 
+     * @param arr Kontrol yapilacak dizi
+     */
     void control(String[] arr){
         for(int i=0 ; i<arr.length ; i++){
             if(arr[i].contains("cos")){

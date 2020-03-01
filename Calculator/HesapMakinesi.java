@@ -9,7 +9,9 @@ import java.util.Scanner;
  * @author berkant.begdilili@ogr.dpu.edu.tr
  */
 public class HesapMakinesi{
+    static Scanner scanner = new Scanner(System.in);
     
+    // Hesap Makinesi Menusu
     public static void menu(){
         StringBuilder menu = new StringBuilder();
         menu.append("\n1- Toplama\n");
@@ -20,7 +22,13 @@ public class HesapMakinesi{
         System.out.println(menu.toString());
     }
     
-
+    /**
+     * Bu method, girilen ifadeyi oparatorlerden ayirip diziye donusturur.
+     * 
+     * @param s Girilen islem
+     * @param op Girilen oparator
+     * @return Olusan dizi
+     */
     public static String[] convert(StringBuilder s, String op){
         HashSet<Integer> e = new HashSet<>();
         int i=0;
@@ -43,50 +51,36 @@ public class HesapMakinesi{
         return arr;
     }
     
-    
+
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-       
-        System.out.println("------------- BB Hesap Makinesi -------------");
-        menu();
-        byte selection = scanner.nextByte();
         
-        switch(selection){
-            case 1:
-                final String OP1 = "+";
-                System.out.print("ISLEMI GIRINIZ: ");
-                String in1 = scanner.next();
-                StringBuilder sb1 = new StringBuilder(in1);
-                Toplama toplama = new Toplama(convert(sb1, OP1));
-                System.out.println(toplama);
-                break;
-            case 2:
-                final String OP2 = "-";
-                System.out.print("ISLEMI GIRINIZ: ");
-                String in2 = scanner.next();
-                StringBuilder sb2 = new StringBuilder(in2);
-                Cikarma cikarma = new Cikarma(convert(sb2, OP2));
-                System.out.println(cikarma);
-                break;
-            case 3:
-                final String OP3 = "*";
-                System.out.print("ISLEMI GIRINIZ: ");
-                String in3 = scanner.next();
-                StringBuilder sb3 = new StringBuilder(in3);
-                Carpma carpma = new Carpma(convert(sb3, OP3));
-                System.out.println(carpma);
-                break;
-            case 4:
-                final String OP4 = "/";
-                System.out.print("ISLEMI GIRINIZ: ");
-                String in4 = scanner.next();
-                StringBuilder sb4 = new StringBuilder(in4);
-                Bolme bolme = new Bolme(convert(sb4, OP4));
-                System.out.println(bolme);
-                break;
-            default:
-                System.out.println("HATA: GECERLI BIR SECIM YAPMADINIZ!");
+        System.out.println("------------- BB Hesap Makinesi -------------");
+        
+        double temp = 0;
+        
+        while(true){ // Sonsuz dongu
+            menu();
+            byte selection = scanner.nextByte();
+            Secim secim = new Secim(selection);
+            
+            System.out.println("Baska bir oparatorle islem yapmaya "
+                                + "devam etmek ister misiniz?"
+                                + "(Evet icin 'e' karakterini giriniz)");
+            String e1 = scanner.next();
+            
+            if(e1.equalsIgnoreCase("e")){
+                temp += secim.getResult();
+            }else{
+                if(temp == 0){
+                    System.out.println();
+                    System.out.println("SONUC: "+secim);
+                    break;
+                }else {
+                    System.out.println();
+                    System.out.println("SONUC: "+(temp+secim.getResult()));
+                    break;
+                }
+            }
         }
     }
-    
 }
