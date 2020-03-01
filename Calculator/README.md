@@ -1,9 +1,12 @@
-# Sort Algorithms (Sıralama Algoritmaları)
+# Calculator (Hesap Makinesi)
 
- 1. [SortAlgorithm (Interface - Arayüz)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/sorts/SortAlgorithm.java "by BB")
- 2. [Sort (Final Class - Değiştirilemez Sınıf)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/sorts/Sort.java "by BB")
- 3. [Selection Sort (Seçerek Sıralama)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/sorts/SelectionSort.java "by BB")
- 4. [Insertion Sort (Sokma Sıralaması)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/sorts/InsertionSort.java "by BB")
+ 1. [HesapMakinesi (Main Class - Ana Sınıf)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/Calculator/HesapMakinesi.java "by BB")
+ 2. [Kontrol (Abstract Class - Soyut Sınıf)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/Calculator/Kontrol.java "by BB")
+ 3. [Secim (Selection)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/Calculator/Secim.java "by BB")
+ 4. [Toplama (Addition)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/Calculator/Toplama.java "by BB")
+ 5. [Cikarma (Subtraction)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/Calculator/Cikarma.java "by BB")
+ 6. [Carpma (Multiplication)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/Calculator/Carpma.java "by BB")
+ 7. [Bolme (Division)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/Calculator/Bolme.java "by BB")
 
 
 
