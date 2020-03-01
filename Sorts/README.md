@@ -4,7 +4,8 @@
  2. [Sort (Final Class - Değiştirilemez Sınıf)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/sorts/Sort.java "by BB")
  3. [Selection Sort (Seçerek Sıralama)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/sorts/SelectionSort.java "by BB")
  4. [Insertion Sort (Sokma Sıralaması)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/sorts/InsertionSort.java "by BB")
- 4. [Bubble Sort (Kabarcık Sıralaması)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/sorts/BubbleSort.java "by BB")
+ 5. [Bubble Sort (Kabarcık Sıralaması)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/sorts/BubbleSort.java "by BB")
+ 6. [Counting Sort (Sayarak Sıralama)]("by BB")
 
 
 
