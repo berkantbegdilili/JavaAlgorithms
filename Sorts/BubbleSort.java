@@ -6,37 +6,36 @@ package bb_projects.Sorts;
  * @see SortAlgorithm
  * @see Sort
  */
-public class SelectionSort implements SortAlgorithm{
+public class BubbleSort implements SortAlgorithm{
     
     /**
-     * Bu method, Genel Secerek Siralamayi uygular
+     * Bu method, Genel Kabarcik Siralamasini uygular
      * 
      * @param arr Siralanacak dizi
      * @return Siralanmis dizi
      */
     @Override
-    public <T extends Comparable<T>> T[] sort(T[] arr) {
-       int n = arr.length;
-       for(int i=0 ; i<n-1 ; i++){
-           int min = i;
-           
-           for(int j=i+1 ; j<n ; j++){
-               if(Sort.less(arr[j], arr[min])){
-                   min = j;
+    public <T extends Comparable<T>> T[] sort(T[] arr){
+       for(int i=0 ; i<arr.length ; i++){
+           boolean swapped = false;
+           for(int j=arr.length-1 ; j>i ; j--){
+               if(Sort.less(arr[j], arr[j-1])){
+                   Sort.swap(arr, j-1, j);
+                   swapped = true;
                }
            }
-           
-           if(min != i){
-               Sort.swap(arr, i, min);
+           //Dizide herhangi bir degistirme islemi yapilmamissa donguden cikma kontrolu
+           if(!swapped){
+               break;
            }
-       }
+       } 
        return arr;
     }
-   
+    
     //Ornek program
     public static void main(String[] args) {
         //Nesne olusturuldu
-        SelectionSort sort = new SelectionSort();
+        BubbleSort sort = new BubbleSort();
         
         //Bir dizi olusturuldu ve rastgele sayilar atandi
         Integer[] intArr = new Integer[10];  

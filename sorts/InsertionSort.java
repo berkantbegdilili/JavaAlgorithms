@@ -1,4 +1,4 @@
-package bb_projects.sorts;
+package bb_projects.Sorts;
 
 /**
  *
