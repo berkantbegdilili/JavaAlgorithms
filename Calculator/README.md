@@ -21,6 +21,7 @@ ________________________________
 
 🕊 TR: Bu döküman [**Berkant BEĞDİLİLİ**](https://www.linkedin.com/in/berkantbegdilili/ "LinkedIN: berkantbegdilili") tarafından oluşturulmuştur. ✌🏼
 
+🕊 Contact (İletişim) = [**TELEGRAM**](https://t.me/berkantbegdilili/ "Telegram: @berkantbegdilili")
 
 
 
