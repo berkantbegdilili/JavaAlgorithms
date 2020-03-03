@@ -9,8 +9,10 @@ ________________________________
 
 ________________________________
 
-🕊 EN: This document was created by [**Berkant BEGDILILI**](https://t.me/berkantbegdilili "Telegram: @berkantbegdilili")  ✌🏼
+🕊 EN: This document was created by [**Berkant BEGDILILI**](https://www.linkedin.com/in/berkantbegdilili/ "LinkedIN: berkantbegdilili")  ✌🏼
 
-🕊 TR: Bu döküman [**Berkant BEĞDİLİLİ**](https://t.me/berkantbegdilili "Telegram: @berkantbegdilili") tarafından oluşturulmuştur. ✌🏼
+🕊 TR: Bu döküman [**Berkant BEĞDİLİLİ**](https://www.linkedin.com/in/berkantbegdilili/ "LinkedIN: berkantbegdilili") tarafından oluşturulmuştur. ✌🏼
+
+🕊 Contact (İletişim) = [**TELEGRAM**](https://t.me/berkantbegdilili/ "Telegram: @berkantbegdilili")
 
 
