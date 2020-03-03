@@ -14,12 +14,26 @@ public class HesapMakinesi{
     // Hesap Makinesi Menusu
     public static void menu(){
         StringBuilder menu = new StringBuilder();
+        menu.append("------------- MENU -------------\n");
         menu.append("\n1- Toplama\n");
         menu.append("2- Cikarma\n");
         menu.append("3- Carpma\n");
         menu.append("4- Bolme\n");
-        menu.append("\nYapmak Istediginiz Islemi Giriniz");
-        System.out.println(menu.toString());
+        menu.append("\nYapmak Istediginiz Islemin Numarasini Giriniz : ");
+        System.out.print(menu.toString());
+    }
+    
+    // Kullanim Kilavuzu
+    public static void guide(){
+        StringBuilder guide = new StringBuilder();
+        guide.append("\n---------- KULLANIM KILAVUZ ----------\n");
+        guide.append("1. Islem Menusunden Yapmak Istediginiz Islemi Seciniz.\n");
+        guide.append("2. Yapmak Istediginiz Islemin Oparatoru Ile Istediginiz Kadar Sayiyi Isleme Tabi Tutabilirsiniz.\n");
+        guide.append("3. Daha Sonra Enter 'a Bastiginizde Eger Islem Oparatorunu Degistirmek Istiyorsaniz Gerekli Secimi Yapip Devam Edebilirsiniz.\n");
+        guide.append("4. Devam Etmek Istemiyorsaniz Herhangi Bir Tuslama Yaparak Sonuca Ulasabilirsiniz.\n");
+        guide.append("NOT: cos,sin,tan,cot,log,arcsin,arccos,arccot,arctan Islemlerinide Yapabilmektesiniz.\n");
+        guide.append("ORNEK: cos20 yazarsaniz cosinus'un 20 derecedeki degerine ulasabilirsiniz ve isleme tabi tutabilirsiniz.\n");
+        System.out.println(guide.toString());            
     }
     
     /**
@@ -53,11 +67,11 @@ public class HesapMakinesi{
     
 
     public static void main(String[] args) {
-        
-        System.out.println("------------- BB Hesap Makinesi -------------");
-        
         double temp = 0;
         
+        System.out.println("-------------------------- BB Hesap Makinesi --------------------------");
+        guide();
+         
         while(true){ // Sonsuz dongu
             menu();
             byte selection = scanner.nextByte();

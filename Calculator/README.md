@@ -7,7 +7,9 @@
  5. [Cikarma (Subtraction)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/Calculator/Cikarma.java "by BB")
  6. [Carpma (Multiplication)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/Calculator/Carpma.java "by BB")
  7. [Bolme (Division)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/Calculator/Bolme.java "by BB")
-
+ 
+ # UML Diagram
+![CalculatorUML](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/Calculator/CalculatorUML.png) 
 
 
 #
