@@ -11,12 +11,12 @@
 
 
 # UML Diagram
-![DataScrapingUML](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/DataScraping/DataScrapingUML.png) 
+![DataScrapingUML](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/DataScraping/img/DataScrapingUML.png) 
 
 # Imagery (Görüntüler)
-![run1](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/DataScraping/run1.jpg)
+![run1](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/DataScraping/img/run1.jpg)
  
-![run2](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/DataScraping/run2.jpg)
+![run2](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/DataScraping/img/run2.jpg)
  
 
 #
