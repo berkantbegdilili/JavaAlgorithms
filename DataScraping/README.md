@@ -4,6 +4,11 @@
  2. [Selection (Seciminlerin Ayıklandığı Sınıf)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/DataScraping/Selection.java "by BB")
  3. [Data (Veri Kazıma İşlemlerinin Yapıldığı Sınıf)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/DataScraping/Data.java "by BB")
 
+#
+> EN: It receives the day data from the system and prints the hours of that day.
+#
+> TR: Sistemden gün verisini alıp hangi günde iseniz o güne ait saatleri yazdırmaktadir.
+
 # UML Diagram
 ![DataScrapingUML](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/DataScraping/DataScrapingUML.png) 
 
