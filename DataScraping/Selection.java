@@ -19,15 +19,15 @@ public class Selection {
      * @return Secilen Rotadan Cekilecek Verilerin Oldugu Adresi Dondurur
      */
     public String getSelect() {
-        if(select.equalsIgnoreCase("1")){
+        if(select.equals("1")){
             return "http://www.kutahya.bel.tr/ulasim2mobil.asp?islem=saat&id=29";
-        } else if(select.equalsIgnoreCase("2")){
+        } else if(select.equals("2")){
             return "http://www.kutahya.bel.tr/ulasim2mobil.asp?islem=saat&id=8";
-        } else if(select.equalsIgnoreCase("3")){
+        } else if(select.equals("3")){
             return "http://www.kutahya.bel.tr/ulasim2mobil.asp?islem=saat&id=9";
-        } else if(select.equalsIgnoreCase("4")){
+        } else if(select.equals("4")){
             return "http://www.kutahya.bel.tr/ulasim2mobil.asp?islem=saat&id=32";
-        } else if(select.equalsIgnoreCase("5")){
+        } else if(select.equals("5")){
             return "http://www.kutahya.bel.tr/ulasim2mobil.asp?islem=saat&id=35";
         } else{
             return "";
