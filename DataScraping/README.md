@@ -12,7 +12,6 @@
  
 ![run2](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/DataScraping/run2.jpg)
  
-![run3](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/DataScraping/run3.jpg) 
 
 #
 > EN: There may be errors or missed places in the algorithms written. Please report the error you found by contacting me.
