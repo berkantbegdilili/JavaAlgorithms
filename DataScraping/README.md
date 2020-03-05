@@ -9,6 +9,7 @@
 #
 > TR: Sistemden gün verisini alıp hangi günde iseniz o güne ait saatleri yazdırmaktadir.
 
+
 # UML Diagram
 ![DataScrapingUML](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/DataScraping/DataScrapingUML.png) 
 
