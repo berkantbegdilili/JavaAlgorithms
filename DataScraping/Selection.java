@@ -1,3 +1,5 @@
+package bb_projects.DataScraping;
+
 /**
  * Secim Sinifi
  * 
@@ -28,7 +30,7 @@ public class Selection {
         } else if(select.equals("4")){
             return "http://www.kutahya.bel.tr/ulasim2mobil.asp?islem=saat&id=32";
         } else if(select.equals("5")){
-            return "http://www.kutahya.bel.tr/ulasim2mobil.asp?islem=saat&id=35";
+            return "http://www.kutahya.bel.tr/ulasim2mobil.asp?islem=saat&id=5";
         } else{
             return "";
         }
@@ -39,9 +41,9 @@ public class Selection {
      * @return Bugunu Dondurur
      */
     public String getToday() {
-        if(today.contains(SATURDAY[0]) || today.contains(SATURDAY[1])){
+        if(today.equals(SATURDAY[0]) || today.equals(SATURDAY[1])){
             return "saturday";
-        } else if(today.contains(SUNDAY[0]) || today.contains(SUNDAY[1])){
+        } else if(today.equals(SUNDAY[0]) || today.equals(SUNDAY[1])){
             return "sunday";
         } else{
             return "weekday";

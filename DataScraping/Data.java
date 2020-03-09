@@ -1,3 +1,5 @@
+package bb_projects.DataScraping;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -127,12 +129,12 @@ public class Data {
                                 "    KUTAHYA BELEDIYESI\n" +
                                 "ULASIM HIZMETLERI MUDURLUGU");
                 
-                System.out.println("\nVEFA-MALTEPE-ZAFERTEPE ISTIKAMETI");
+                System.out.println("\n    ZAFERTEPE KALKISI");
                 for(int i=0 ; i<list1.size() ; i++){
                     System.out.println("        "+list1.get(i));
                 }
                 
-                System.out.println("\nÇAMLICA-OKMEYDANI ISTIKAMETI");
+                System.out.println("\n   B.EVLER KALKISI");
                 for(int j=0 ; j<list2.size() ; j++){
                     System.out.println("        "+list2.get(j));
                 }

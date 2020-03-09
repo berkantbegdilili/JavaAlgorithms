@@ -1,3 +1,5 @@
+package bb_projects.DataScraping;
+
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -16,8 +18,8 @@ public class BusTime {
         menu.append("1. A-1 Nolu HAT\n");
         menu.append("2. 7A Nolu HAT\n");
         menu.append("3. 7B Nolu HAT\n");
-        menu.append("4. 16 Nolu Hat\n");
-        menu.append("5. OTOGAR SERVIS Nolu HAT\n\n");
+        menu.append("4. 16 Nolu HAT\n");
+        menu.append("5. 5 Nolu HAT\n\n");
         menu.append("SAAT BILGISI ALMAK ISTEDIGINIZ HATTI YAZINIZ: ");
         System.out.print(menu.toString());
     }
