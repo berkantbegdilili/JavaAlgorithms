@@ -1,4 +1,4 @@
-package bb_projects.DataScraping;
+package bb_projects.DataScraper;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

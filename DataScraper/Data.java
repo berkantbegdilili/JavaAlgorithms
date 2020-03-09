@@ -1,4 +1,4 @@
-package bb_projects.DataScraping;
+package bb_projects.DataScraper;
 
 import java.io.IOException;
 import java.util.ArrayList;

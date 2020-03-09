@@ -1,4 +1,4 @@
-package bb_projects.DataScraping;
+package bb_projects.DataScraper;
 
 /**
  * Secim Sinifi
