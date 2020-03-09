@@ -42,7 +42,7 @@ public class Selection {
         if(today.contains(SATURDAY[0]) || today.contains(SATURDAY[1])){
             return "saturday";
         } else if(today.contains(SUNDAY[0]) || today.contains(SUNDAY[1])){
-            return "pazar";
+            return "sunday";
         } else{
             return "weekday";
         }
