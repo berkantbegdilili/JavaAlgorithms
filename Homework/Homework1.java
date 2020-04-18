@@ -47,8 +47,6 @@ public class Homework1 {
                 temp1 += s[i][j].substring(38) + "";
                 temp = temp1.split(" ");
                 Arrays.sort(temp);
-                
-                
             }
         }
         for(int i=0 ; i<s.length ; i++){
@@ -57,6 +55,5 @@ public class Homework1 {
                     System.out.println(s[i][j]);
             }
         }
-        
     }
 }
