@@ -1,4 +1,4 @@
-# Data Scraping (Veri Kazıma) - Kutahya Ulasim
+# Kutahya Ulasim
 
  1. [BusTime (Main Class - Ana Sınıf)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/KutahyaUlasim/BusTime.java "by BB")
  2. [Selection (The Class in Which Choices are Parsed - Seciminlerin Ayıklandığı Sınıf)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/KutahyaUlasim/Selection.java "by BB")
@@ -11,12 +11,12 @@
 
 
 # UML Diagram
-![DataScrapingUML](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/DataScraping/img/DataScrapingUML.png) 
+![DataScrapingUML](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/KutahyaUlasim/img/DataScrapingUML.png) 
 
 # Imagery (Görüntüler)
-![run1](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/DataScraping/img/BB-1.jpg)
+![run1](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/KutahyaUlasim/img/BB-1.jpg)
  
-![run2](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/DataScraping/img/BB-2.jpg)
+![run2](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/KutahyaUlasim/img/BB-2.jpg)
  
 
 #
