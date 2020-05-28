@@ -1,8 +1,8 @@
 # Data Scraping (Veri Kazıma) - Kutahya Ulasim
 
- 1. [BusTime (Main Class - Ana Sınıf)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/DataScraping/BusTime.java "by BB")
- 2. [Selection (The Class in Which Choices are Parsed - Seciminlerin Ayıklandığı Sınıf)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/DataScraping/Selection.java "by BB")
- 3. [Data (Class of Scraping - Veri Kazıma İşlemlerinin Yapıldığı Sınıf)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/DataScraping/Data.java "by BB")
+ 1. [BusTime (Main Class - Ana Sınıf)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/KutahyaUlasim/BusTime.java "by BB")
+ 2. [Selection (The Class in Which Choices are Parsed - Seciminlerin Ayıklandığı Sınıf)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/KutahyaUlasim/Selection.java "by BB")
+ 3. [Data (Class of Scraping - Veri Kazıma İşlemlerinin Yapıldığı Sınıf)](https://github.com/berkantbegdilili/JavaAlgorithms/blob/master/KutahyaUlasim/Data.java "by BB")
 
 #
 > EN: It receives the day data from the system and prints the hours of that day.
